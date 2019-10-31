@@ -11,6 +11,7 @@
     "lint:js": "eslint .",
     "lint-staged": "lint-staged",
     "install:void": ":",
+    "install:sub-project": "cd ./sub-project && yarn",
     "postinstall": "run-p install:**"
   },
   "devDependencies": {
