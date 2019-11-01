@@ -10,7 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:js": "eslint .",
     "lint-staged": "lint-staged",
-    "postinstall": "run-p install:*"
+    "install:void": ":",
+    "postinstall": "run-p install:**"
   },
   "devDependencies": {
     "eslint": "^6.5.0",
